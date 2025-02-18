@@ -2,4 +2,6 @@
 
 namespace Vampyrian\PostIt;
 
-class PostItClass {}
+class PostItClass
+{
+}
