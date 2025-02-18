@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Vampyrian\PostIt\Tests;
 
 use PHPUnit\Framework\TestCase;
 
