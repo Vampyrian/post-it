@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace App\Domains\Integrations\PostIt\Dto;
+namespace Vampyrian\PostIt\ValueObjects;
 
-class PostItResponseDTO
+class PostItResponse
 {
     /**
      * @param int $totalAddresses
      * @param int $totalPages
      * @param int $currentPage
-     * @param PostItAddressDTO[] $addresses
+     * @param PostItAddress[] $addresses
      */
     public function __construct(
         public int $totalAddresses,
