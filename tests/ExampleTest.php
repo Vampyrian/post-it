@@ -9,7 +9,7 @@ class ExampleTest extends TestCase
 {
     public function testExample(): void
     {
-        $new  = new PostIt();
+        $new = new PostIt();
         $this->assertTrue(true);
     }
 }

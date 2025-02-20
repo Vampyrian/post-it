@@ -33,5 +33,4 @@ class Mapper
     {
         return strlen($input) > 0 ? $input : null;
     }
-
 }
